@@ -13,7 +13,7 @@ for n in nums:
 total = len(nums)
 for i in range(iterations):
     total += its[i]
-    its[i+6] += its[i-1]
-    its[i+8] += its[i-1]
+    its[i+7] += its[i]
+    its[i+9] += its[i]
 
 print(total)
